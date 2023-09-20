@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private String factorizar(int etnumber) {
+    private String factorizar(int etnumber) {z
         int fact = 1;
         for (int i = 1; i <= etnumber; i++) {
             fact = fact * i;
