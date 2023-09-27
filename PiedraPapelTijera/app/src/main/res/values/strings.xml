@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PiedraPapelTijera</string>
+    <string name="papel">Papel</string>
+    <string name="piedra">Piedra</string>
+    <string name="tijeras">Tijeras</string>
+    <string name="ivDescription">Question mark</string>
+    <string name="textoInicial">Presiona cualquiera de los tres botones para empezar</string>
+    <string name="reset">Reiniciar</string>
+    <string name="vs">VS</string>
+</resources>

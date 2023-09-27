@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v.getId()==bcara.getId()){
-            ivmoneda.setImageDrawable(getDrawable(R.mipmap.cara_foreground));
+            ivmoneda.setImageResource(R.mipmap.cara_foreground);
         }else{
             ivmoneda.setImageDrawable(getDrawable(R.mipmap.cruz_foreground));
         }
