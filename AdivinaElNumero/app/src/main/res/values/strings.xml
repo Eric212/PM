@@ -10,4 +10,7 @@
     <string name="_8">8</string>
     <string name="_9">9</string>
     <string name="_10">10</string>
+    <string name="adivina_el_numero">Adivina el numero</string>
+    <string name="intentos_restantes_3">Intentos restantes: 3</string>
+    <string name="reset">Reset</string>
 </resources>

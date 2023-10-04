@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Calculadora"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvScreen"
+        android:layout_width="352dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/corner_rounded"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbTitulo" />
+
+    <Button
+        android:id="@+id/CE"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="416dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="CE"
+        android:textColor="#1876af"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvScreen" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="185dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="0"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button32"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="416dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="416dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="4"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="6"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="."
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button34"
+        app:layout_constraintTop_toBottomOf="@+id/button31"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="+"
+        android:textColor="#b55f0c"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toEndOf="@+id/button31"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="*"
+        android:textColor="#b55f0c"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toEndOf="@+id/button25"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="/"
+        android:textColor="#b55f0c"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toEndOf="@+id/porcentaje"
+        app:layout_constraintTop_toBottomOf="@+id/tvScreen" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="9"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toBottomOf="@+id/porcentaje" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="+/-"
+        android:textColor="#1876af"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/CE"
+        app:layout_constraintTop_toBottomOf="@+id/tvScreen" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="-"
+        android:textColor="#b55f0c"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="416dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="1"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="5"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button28"
+        app:layout_constraintTop_toBottomOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="416dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="7"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CE" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="8"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button22"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="="
+        android:textColor="#067e14"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button35"
+        app:layout_constraintTop_toBottomOf="@+id/button30"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="2"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button32"
+        app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="3"
+        android:textColor="#3c4c65"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button33"
+        app:layout_constraintTop_toBottomOf="@+id/button27" />
+
+    <Button
+        android:id="@+id/porcentaje"
+        android:layout_width="85dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#d6d8d7"
+        android:text="%"
+        android:textColor="#1876af"
+        android:textSize="26sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/tvScreen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
