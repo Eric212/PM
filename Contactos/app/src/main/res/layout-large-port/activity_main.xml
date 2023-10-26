@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcvListado"
+        android:name="com.ericsospedra.contactos.FragmentoListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        tools:layout="@layout/fragmento_listado" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcvDetalle"
+        android:name="com.ericsospedra.contactos.FragmentoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        tools:layout="@layout/fragmento_detalle" />
+</LinearLayout>

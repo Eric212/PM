@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="direccion">Direccion</string>
+    <string name="empresa">Empresa</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="email">Email</string>
+    <string name="telefono_1">Telefono 1:</string>
+    <string name="telefono_2">Telefono 2:</string>
+</resources>

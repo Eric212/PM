@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correos>
+    <correo>
+        <asunto>Descuento exclusivo</asunto>
+        <texto>Estimado Eric, le ofrecemos un descuento exclusivo del 15% en su próxima compra en nuestra tienda en línea. Utilice el código DESCUENTO15 al realizar su pedido.</texto>
+    </correo>
+    <correo>
+        <asunto>Actualización de política de privacidad</asunto>
+        <texto>Estimado Eric, hemos actualizado nuestra política de privacidad para garantizar la protección de sus datos personales. Le invitamos a revisar los cambios en nuestra página web.</texto>
+    </correo>
+    <correo>
+        <asunto>Oferta de trabajo</asunto>
+        <texto>Estimado Eric, estamos buscando un profesional altamente calificado para unirse a nuestro equipo. Si está interesado, por favor envíenos su currículum y carta de presentación.</texto>
+    </correo>
+    <correo>
+        <asunto>Informe mensual</asunto>
+        <texto>Estimado Eric, adjunto el informe mensual con los resultados y métricas clave. Por favor, revísenlo antes de nuestra reunión programada el viernes.</texto>
+    </correo>
+    <correo>
+        <asunto>Actualización de producto</asunto>
+        <texto>¡Hola, Eric! Hemos lanzado una actualización importante de nuestro software. Esta versión incluye nuevas características y correcciones de errores. Actualice su software hoy mismo.</texto>
+    </correo>
+    <correo>
+        <asunto>Confirmación de reserva de vuelo</asunto>
+        <texto>Estimado Eric, confirmamos su reserva de vuelo para el vuelo número 123 en la fecha del [Fecha]. Le deseamos un viaje agradable.</texto>
+    </correo>
+    <correo>
+        <asunto>Invitación a la gala benéfica</asunto>
+        <texto>Estimado Eric, le extendemos una cordial invitación a nuestra gala benéfica anual que se llevará a cabo el [Fecha] en [Lugar]. Esperamos contar con su apoyo.</texto>
+    </correo>
+    <correo>
+        <asunto>Actualización de términos y condiciones</asunto>
+        <texto>Estimado Eric, hemos realizado una actualización en nuestros términos y condiciones. Le recomendamos revisar estos cambios en nuestro sitio web.</texto>
+    </correo>
+    <correo>
+        <asunto>Felices fiestas</asunto>
+        <texto>Querido Eric, en esta temporada festiva, queremos agradecerle por su apoyo continuo. Le deseamos felices fiestas y un próspero Año Nuevo.</texto>
+    </correo>
+    <correo>
+        <asunto>Confirmación de registro</asunto>
+        <texto>Estimado Eric, le confirmamos su registro en nuestro sitio web. Ahora puede disfrutar de todos nuestros servicios y contenido exclusivo. Bienvenido a nuestra comunidad.</texto>
+    </correo>
+</correos>
